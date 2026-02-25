@@ -153,7 +153,6 @@ function buildResponse(primaryId) {
   };
 }
 
-
 app.get("/", (_req, res) => {
   res.json({ status: "ok", message: "Bitespeed Identity Service is running" });
 });
